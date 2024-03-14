@@ -86,7 +86,36 @@ class MyApp extends StatelessWidget {
                                               ], 
                                             ),
 
-Row( mainAxisAlignment: MainAxisAlignment.spaceBetween, children: [ Text("Kelas "), Text("TI 1") ], ), SizedBox(height: 15,), Row( mainAxisAlignment: MainAxisAlignment.spaceBetween, children: [ Text("Program Studi"), Text("Teknik Informatika") ], ), SizedBox(height: 15,), Row( mainAxisAlignment: MainAxisAlignment.spaceBetween, children: [ Text("Dosen Wali "), Text("NAP") ], ), SizedBox(height: 15,), Row( mainAxisAlignment: MainAxisAlignment.spaceBetween, children: [ Text("Angkatan "), Text("2021") ], ) ], ), ) 
+                                          Row( 
+                                            mainAxisAlignment: MainAxisAlignment.spaceBetween, 
+                                            children: [ 
+                                              Text("Kelas "), 
+                                              Text("TI 1") ], 
+                                              ), 
+                                              SizedBox(height: 15,), 
+                                              Row( 
+                                                mainAxisAlignment: MainAxisAlignment.spaceBetween, 
+                                                children: [ 
+                                                  Text("Program Studi"), 
+                                                  Text("Teknik Informatika") ], 
+                                                  ), 
+                                                  SizedBox(height: 15,), 
+                                                  Row( 
+                                                    mainAxisAlignment: MainAxisAlignment.spaceBetween, 
+                                                    children: [ 
+                                                      Text("Dosen Wali "), 
+                                                      Text("NAP") ], 
+                                                      ), 
+                                                      SizedBox(height: 15,), 
+                                                      Row( 
+                                                        mainAxisAlignment: MainAxisAlignment.spaceBetween, 
+                                                        children: [ 
+                                                          Text("Angkatan "), 
+                                                          Text("2021") ], 
+                                                          ) 
+                                        ], 
+                                      ), 
+                                    ) 
                                     ], 
                                   ), 
           ) 
