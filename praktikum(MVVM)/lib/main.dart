@@ -21,6 +21,7 @@ class MyApp extends StatelessWidget {
 
       providers: [ 
         BlocProvider( 
+
           create: (context) => ContactCubit(), 
         ), 
       ], 
