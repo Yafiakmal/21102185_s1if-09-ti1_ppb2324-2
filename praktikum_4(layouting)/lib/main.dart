@@ -137,7 +137,17 @@ class MyApp extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Text("Bantuan"),
-                        Image.asset("assets/image1.png", height: 70,)
+                        // Container(
+                        //   height: 70,
+                          // child: Image.asset(
+                          //   "assets/image1.png",
+                          //   height: 70,
+                          //   )
+                        // ),
+                        Image.asset(
+                            "assets/image1.png",
+                            height: 70,
+                            )
                       ],
                     ),
                     SizedBox(
